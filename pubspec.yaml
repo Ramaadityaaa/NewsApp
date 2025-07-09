@@ -1,0 +1,31 @@
+name: newsapp
+description: "Aplikasi berita sederhana dengan Flutter dan NewsAPI."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8 # Ikon untuk iOS
+  http: ^1.2.1            # Untuk mengambil data dari API
+  url_launcher: ^6.2.6    # Untuk membuka link di browser
+  firebase_core: ^2.32.0  # Untuk menginisialisasi Firebase
+  firebase_auth: ^4.20.0  # Untuk login/register Firebase
+  hive: ^2.2.3            # Untuk menyimpan data lokal
+  hive_flutter: ^1.1.0    # Integrasi Hive dengan Flutter UI
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.8
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png

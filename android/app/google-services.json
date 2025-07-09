@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "982199820441",
+    "project_id": "newsapp-91e83",
+    "storage_bucket": "newsapp-91e83.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982199820441:android:2769eb9b58bec6cac3d808",
+        "android_client_info": {
+          "package_name": "com.rama.newsportal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbYZjyW_AAVy7iz7uCrETDVR7RYAF75Ss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
